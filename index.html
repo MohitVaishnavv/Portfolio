@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About : Mohit Vaishnav</title>
+  <link rel="stylesheet" href="src/css/main.css" />
+  <link rel="stylesheet" href="src/css/gsap-cursor.css" />
+  <link rel="icon" href="src/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="src/css/contact.css">
+  <link rel="stylesheet" href="src/css/progress-bar.css">
+  <!-- - google font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="progress-bar" id="progress-bar"></div>
+  <div class="cursor"></div>
+  <div class="container">
+    <section>
+      <div class="about">
+        <div class="about-info">
+          <div class="image cursor-scale">
+            <img src="src/images/-1.png" alt="Mohit Vaishnavi" />
+          </div>
+          <div class="about-data">
+            <div class="name">Mohit Vaishnav ⚡</div>
+            <div>
+              I'm a <span id="dynamicText" class="title"></span>
+            </div>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="about-more">
+          <div class="info-block">
+            <ion-icon class="icon" name="mail-outline"></ion-icon>
+            <div class="contact-info">
+              <span class="title">Email</span>
+              <a href="mohitvaishnav247@gmail.com">Mohitvaishnav247@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-block">
+            <ion-icon class="icon" name="call-outline"></ion-icon>
+            <div class="contact-info">
+              <span class="title">Phone</span>
+              <a href="tel:+911234567890">+91 1234567890</a>
+            </div>
+          </div>
+          <div class="info-block">
+            <ion-icon class="icon" name="calendar-outline"></ion-icon>
+            <div class="contact-info">
+              <span class="title">Birthday</span>
+              <time datetime="2004-02-02">January 11, 2004</time>
+            </div>
+          </div>
+          <div class="info-block">
+            <ion-icon class="icon" name="location-outline"></ion-icon>
+            <div class="contact-info">
+              <span class="title">Location</span>
+              <a target="blank" href="https://maps.app.goo.gl/amsBpWc7jjku8j9n8">Ajmer</a>
+            </div>
+          </div>
+          <div class="separator"></div>
+          <a href="https://facebook.com/Mohitvaishnav" target="blank"><ion-icon class="icon"
+              name="logo-facebook"></ion-icon></a>
+          <a href="https://instagram.com/mohit_vaishnav11" target="blank"><ion-icon class="icon"
+              name="logo-instagram"></ion-icon></a>
+          <a href="https://www.linkedin.com/in/mohit-vaishnav-64ab65318/" target="blank"><ion-icon class="icon"
+              name="logo-linkedin"></ion-icon></a>
+          <a href="https://github.com/" target="blank"><ion-icon class="icon"
+              name="logo-github"></ion-icon></a>
+          <a href="https://twitter.com/" target="blank"><ion-icon class="icon"
+              name="logo-twitter"></ion-icon></a>
+        </div>
+      </div>
+      <article class="details">
+        <div class="buttons">
+          <button class="tab-button" onclick="showTab(0)">About Me</button>
+          <button class="tab-button" onclick="showTab(1)">My Skill</button>
+          <button class="tab-button" onclick="showTab(2)">My Journey</button>
+          <button class="tab-button" onclick="showTab(3)">Projects</button>
+          <button class="tab-button" onclick="showTab(4)">Contact</button>
+        </div>
+        <!-- Tab content -->
+        <div class="tab" id="tab1">
+          <h2>About Me</h2>
+
+           <p>Hey there, I'm Mohit Vaishanv. I had Completed my Post-Graduation from Star InfoTech College,Ajmer. I was born in Ajmer on January 11, 2004</p>
+          <p>I strongly believe in turning your crazy ideas into real things. That's the heart of creativity for me. In
+            this portfolio, I want to tell you all about who I am, what I can do, and some awesome projects I've worked
+            on. I'm always on the lookout for new opportunities and learning experiences. So, feel free to get in touch
+            anytime if you want to chat, team up, or simply say hello.</p>
+        <p>I've had the chance to work on many different projects. Some of them have been really challenging, but I've learned a lot from them. I enjoy coming up with new ideas and finding solutions to problems.</p>
+        <p>I like working with other people too. I believe that when we work together, we can achieve great things. I'm good at talking to people and listening to what they have to say.</p>
+        <p>Outside of work, I have hobbies and interests that I'm passionate about. They help me relax and give me new ideas for my work.</p>
+        <p>I'm excited about what the future holds. I'm always looking for new opportunities to learn and grow. I'm also looking forward to meeting new people and working on exciting projects together.</p>
+        <p>Thanks for taking the time to read about me. If you want to get in touch, feel free to reach out!</p>
+        <p>Best regards,</p>
+        <p>Mohit Vaishnav</p>
+        </div>
+
+        <div class="tab" id="tab2">
+          <h2>My Skills</h2>
+          <ul>
+            <li>Content Writing</li>
+            <li>Video & Photography Editing</li>
+            <li>Web Design</li>
+            <li>UI Design</li>
+            <li>Basic Programming Languages</li>
+          </ul>
+          <p>
+            I love using these skills to bring my wild ideas to life, solve problems with code, and create fun web
+            projects.
+          </p>
+        </div>
+
+        <div class="tab" id="tab3">
+          <h2>My Journey So Far</h2>
+          <p>
+            I recently Completed my Post-Graduation from <a href="https://www.starinfotechcollege.com"
+              target="blank">Star InfoTech Collage </a>. I'm also
+            open to exciting work or internships, so if you have something cool to offer, don't hesitate to reach out.
+          </p>
+        </div>
+        <div class="tab" id="tab3">
+          <h2>My Creative Projects</h2>
+          <ul>
+            <li>Personal Blog Website</li>
+            <li>YouTube Videos</li>
+            <li>Web Design Makeover</li>
+          </ul>
+          <p>
+            These projects are where I get to play around with creativity, experiment, and have a blast while learning
+            and growing.
+          </p>
+        </diV>
+        <div class="tab" id="contact-form">
+          <h2>Get in Touch</h2>
+          <p>
+            I'd be thrilled to connect with you! Whether you're curious about my projects, want to collaborate, or just
+            want to have a friendly chat, here's how you can reach out:
+          </p>
+          <h2>Contact Us</h2>
+          <form id="contactForm">
+            <label for="name">Name:</label>
+            <div class="iblock">
+              <input type="text" id="fname" placeholder="First Name" name="fname" required>
+              <input type="text" id="lname" placeholder="Last Name" name="lname" required><br>
+            </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Eg. example@domain.com" required><br>
+            <label for="phoneNumber">Mobile Number (with Country Code):</label>
+            <input type="tel" id="phoneNumber" placeholder="Eg. +91 1234567890" name="phoneNumber" required><br>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Your Subject" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message go here..." rows="4"
+              required></textarea><br>
+            <div class='btn-block'>
+              <button type="submit">Submit <i class="arrow right"></i></button>
+              <div id="messageStatus"></div>
+            </div>
+          </form>
+          <p>
+            I'm super eager to hear from you and explore new adventures together.
+          </p>
+        </div>
+      </article>
+    </section>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="src/js/gsap-cursor.js"></script>
+  <script src="src/js/main.js"></script>
+  <script src="src/js/contact.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="src/js/progress-bar.js"></script>
+</body>
+
+</html>
